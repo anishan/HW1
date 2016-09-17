@@ -1,0 +1,40 @@
+Results from HW1
+
+Note: I put each test case in a different verilog file
+
+Case 1:
+Truth table for ~(AB)
+A B | AB | ~AB 
+0 0 | 0  | 1 
+0 1 | 0  | 1 
+1 0 | 0  | 1 
+1 1 | 1  | 0  
+
+Case 2:
+Truth table for ~A+~B
+A B | ~A ~B | ~A+~B 
+0 0 |	1 1 |	1 
+0 1 |	1 0 |	1 
+1 0 |	0 1 |	1 
+1 1 |	0 0 |	0
+
+Case 3:
+Truth table for ~(A+B)
+A B | A+B | ~(A+B) 
+0 0 |  0  | 1 
+0 1 |  1  | 0 
+1 0 |  1  | 0 
+1 1 |  1  | 0 
+
+Case 4: (the example from the instructions)
+Truth table for ~A~B
+A B | ~A ~B | ~A~B 
+0 0 |	1 1 |	1 
+0 1 |	1 0 |	0 
+1 0 |	0 1 |	0 
+1 1 |	0 0 |	0 
+
+Results:
+By looking at the truth tables for Case 1 and Case 2, we see that the values in the column for ~(AB) match the values for ~A+~B, so we know that ~(AB) = ~A+~B which proves one of DeMorgan's laws.
+
+By looking at the truth tables for Case 3 and Case 4, we see that the values in the column for ~(A+B) match the values for ~A~B, so we know that ~(A+B) = ~A~B which proves the other DeMorgan's law.
